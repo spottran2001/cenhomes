@@ -1,0 +1,476 @@
+body {
+  margin: 0px;
+}
+
+header {
+  width: 1900px;
+  height: 590px;
+  margin: 0px;
+  background-image: url("./img/bg-top.jpg");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  size: 100px;
+}
+
+a:hover {
+  color: tomato;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+  width: 1900px;
+  height: 60px;
+  display: inline-flex;
+  padding-left: 50px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  background-color: #13111117;
+  position: fixed;
+  top: 0px;
+}
+
+.logo {
+  display: inline;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+}
+
+.nav-content {
+  display: inline;
+  display: flex;
+  flex-grow: 1;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+  align-items: center;
+}
+
+.search {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.type-search {
+  display: inline;
+  margin-bottom: 10px;
+}
+
+.input-search {
+  display: inline-flex;
+  flex-direction: row;
+  height: 100%;
+  background-color: white;
+  border-radius: 5em;
+}
+
+.search-img {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+#search-textbox {
+  display: inline;
+  width: 50%;
+  height: 40px;
+  width: 500px;
+  border: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#search-bt {
+  display: inline-flex;
+  background-color: orange;
+  color: white;
+  height: 40px;
+  border: 0;
+  border-top-right-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+}
+
+.event-content {
+  padding: 200px;
+  width: 100%;
+  height: 500px;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.event-content.header {
+  display: block;
+}
+
+.event-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.event-item {
+  width: 510px;
+  height: 275px;
+  padding-left: 20px;
+  border-radius: 0.5em;
+}
+
+.event-item.item1 {
+  background-image: url("./img/event-item.jpg");
+  background-size: cover;
+}
+
+.event-item.item2 {
+  background-image: url("./img/event-item.jpg");
+  background-size: cover;
+}
+
+.event-item.item3 {
+  background-image: url("./img/event-item.jpg");
+  background-size: cover;
+}
+
+a.item {
+  padding-right: 20px;
+}
+
+h2.event-content-h2 {
+  position: absolute;
+  top: 55px;
+  left: 200px;
+}
+
+.product-forYou-content {
+  padding-left: 200px;
+  width: 100%;
+  height: 300px;
+  display: inline-flex;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.product-forYou-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.product-forYou-item {
+  width: 300px;
+  height: 350px;
+  border-radius: 0.5em;
+}
+
+.product-forYou-item.item1 {
+  width: 300px;
+  height: 200px;
+  background-image: url("./img/product-for-you.jpg");
+  background-size: cover;
+}
+
+.product-forYou-text {
+  display: block;
+}
+
+.product-forYouInform {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-forYouInform.h7 {
+  font-weight: bold;
+  color: black;
+}
+
+h2.product-forYou-h2 {
+  position: absolute;
+  top: -90px;
+  left: 200px;
+}
+
+.retail-house-content {
+  padding-left: 200px;
+  padding-top: 100px;
+  width: 100%;
+  height: 950px;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.retail-house-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 150px;
+}
+
+.retail-house-item1 {
+  width: 380px;
+  height: 300px;
+  border-radius: 0.5em;
+  box-sizing: unset;
+  padding-right: 20px;
+}
+
+.retail-house-item2 {
+  width: 380px;
+  height: 100%;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.retail-house-item.item1 {
+  width: 380px;
+  height: 250px;
+  background-image: url("./img/retail-house.png");
+  border-radius: 0.5em;
+  background-size: cover;
+}
+.retail-houseInform {
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+  justify-content: space-between;
+}
+.retail-houseInform-h7 {
+  font-weight: bold;
+}
+
+h2.retail-house-h2 {
+  position: absolute;
+  top: 20px;
+  left: 200px;
+}
+.item {
+  color: black;
+}
+
+.house-for-rent-content {
+  padding-left: 200px;
+  padding-top: 100px;
+  width: 100%;
+  height: 550px;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.house-for-rent.item1 {
+  width: 380px;
+  height: 250px;
+  background-image: url("./img/House-for-rent.jpg");
+  border-radius: 0.5em;
+  background-size: cover;
+}
+
+.real-estate-project-content {
+  padding-left: 200px;
+  padding-top: 100px;
+  width: 100%;
+  height: 900px;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.real-estate-project-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.real-estate-project-item.item1 {
+  width: 380px;
+  height: 250px;
+  background-image: url("./img/real-estate-project.jpg");
+  border-radius: 0.5em;
+  background-size: cover;
+}
+
+p.real-estate-project-header {
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+.content-header {
+  position: absolute;
+  width: 100%;
+  height: 80px;
+  box-sizing: border-box;
+}
+.content-header.real-estate-project {
+  top: -5px;
+}
+
+.project-on-VN-content {
+  padding-left: 200px;
+  padding-top: 100px;
+  width: 100%;
+  height: 600px;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.content-header.project-on-VN {
+  top: 10px;
+}
+
+.project-on-VN-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.project-on-VN-item {
+  width: 300px;
+  height: 390px;
+  box-sizing: unset;
+  padding-right: 20px;
+}
+
+.project-on-VN-item-picture {
+  width: 290px;
+  height: 390px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("./img/project-on-VN.png");
+  border-radius: 0.5em;
+  background-size: cover;
+  position: absolute;
+}
+
+span.place {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 35px;
+}
+
+.about-us-content {
+  padding-left: 200px;
+  padding-top: 50px;
+  width: 100%;
+  height: 250px;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.content-header.about-us {
+  top: -35px;
+}
+
+.about-us-items {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 100px;
+}
+
+.about-us-item {
+  width: 250px;
+  height: 150px;
+  box-sizing: unset;
+  padding-right: 15px;
+}
+
+.about-us-item-picture-1 {
+  width: 240px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url("./img/about-us.jpg");
+  border-radius: 0.5em;
+  background-size: cover;
+  position: absolute;
+}
+
+span.us {
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  bottom: 15px;
+}
+
+.us-content {
+  padding-left: 200px;
+  padding-top: 50px;
+  width: 100%;
+  height: 550px;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.us-inform {
+  width: 1600px;
+  height: 420px;
+  position: absolute;
+  display: inline-flex;
+  left: 50px;
+  top: 25px;
+}
+.us-picture {
+  width: 50%;
+  height: 100%;
+  background-image: url("./img/us.png");
+  background-size: cover;
+}
+
+.us-text {
+  width: 50%;
+  height: 100%;
+  display: block;
+  justify-content: flex-start;
+  padding-left: 50px;
+  box-sizing: border-box;
+}
+.bt-app {
+  width: 125px;
+  height: 40px;
+  background-image: url("https://cenhomes.vn/images/app-store.svg");
+  background-size: cover;
+}
+
+.bt-google {
+  width: 125px;
+  height: 40px;
+  background-image: url("https://cenhomes.vn/images/google-play.svg");
+  background-size: cover;
+}
